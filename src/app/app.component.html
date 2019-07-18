@@ -1,1 +1,12 @@
-<router-outlet></router-outlet>
+<mat-toolbar *ngxLet="{ currentUser: currentUser | async, routeMetadata: routeMetadata | async }; let values">
+  <div bp="flex container">
+    <a class="app-link" routerLink="/">Basic App</a>
+    <span bp="fill"></span>
+    <a *ngIf="values.currentUser" mat-raised-button routerLink="/account">Account</a>
+    <a *ngIf="!values.currentUser && !values.routeMetadata.loginPage" mat-raised-button routerLink="/login">Login</a>
+  </div>
+</mat-toolbar>
+
+<div bp="container padding-top">
+  <router-outlet></router-outlet>
+</div>

@@ -110,6 +110,15 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/cdk@8.1.1":
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-8.1.1.tgz#11b11bbab7316b3fa1f9eb380211bfde0a335cc7"
+  integrity sha512-5hBmhrHf9+WjGVIT8gbhT0Nh37BAjgI2TGRkt1o4qX8cG+1B6gU2MxM+CDJ7PhxSJi9lW93lq2AMuWwnRSllyg==
+  dependencies:
+    tslib "^1.7.1"
+  optionalDependencies:
+    parse5 "^5.0.0"
+
 "@angular/cli@8.1.1":
   version "8.1.1"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-8.1.1.tgz#c63e525c74046457f07d35cb3ec66818c8c6d7b1"
@@ -182,6 +191,13 @@
   version "8.1.2"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-8.1.2.tgz#bdc7a9664ebef837ebaaeb583f66704e06fbeabe"
   integrity sha512-9DR5TclsEpMIzCmagLHKYDTAqcZUkZKPjkngqIAUJg5R4IUjsuYn8NZX+agoOrS4ky6Dy9FXGYUC+QB0iEiycg==
+
+"@angular/material@8.1.1":
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-8.1.1.tgz#87e105fb657fa6e139ddcbd6b9c373936604f6d7"
+  integrity sha512-45aaxKuLTrthzhAhG2+OY86wafuRBteZcRjDG7rKZ3Cc3KteUp5QwAi+QbhHzs4O3WXLWTAmuLYJelRqRqqw7g==
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/platform-browser-dynamic@8.1.2":
   version "8.1.2"
@@ -321,6 +337,13 @@
     rxjs "6.4.0"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
+
+"@ngx-utilities/ngx-let@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@ngx-utilities/ngx-let/-/ngx-let-0.0.3.tgz#6119755c06fbcce7dff1a09ea6eebd15f75401c7"
+  integrity sha512-CnKpdGLCEWmtZiGDWypXMOwn0/lBV8fI04bUDQndPRuyjYFJRpoUY3j+I+TdHkN/VjB50nqDPIEdK4BT5QYqCw==
+  dependencies:
+    tslib "^1.9.0"
 
 "@schematics/angular@8.1.1":
   version "8.1.1"
@@ -1206,6 +1229,11 @@ bluebird@^3.3.0, bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.5:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
   integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
+
+blueprint-css@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/blueprint-css/-/blueprint-css-3.1.1.tgz#ad7acf41e20a0f1391313d6b97523f6fa8143eea"
+  integrity sha512-YK3ZsHXDoJouIRjMx7VsGMKZ5sB9eUYUZduRS7f8hnl/RHealVqy8HrKo0tIIQg9ok5Mr73IYSSnJVfpNk3osQ==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
@@ -3670,6 +3698,11 @@ gtoken@^1.2.1:
     mime "^1.4.1"
     request "^2.72.0"
 
+hammerjs@2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
+
 handle-thing@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-2.0.0.tgz#0e039695ff50c93fc288557d696f3c1dc6776754"
@@ -5694,6 +5727,11 @@ normalize-url@1.9.1:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
+normalize.css@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
+
 npm-bundled@^1.0.1:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/npm-bundled/-/npm-bundled-1.0.6.tgz#e7ba9aadcef962bb61248f91721cd932b3fe6bdd"
@@ -6062,6 +6100,11 @@ parse5@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
   integrity sha512-VrZ7eOd3T1Fk4XWNXMgiGBK/z0MG48BWG2uQNU4I72fkQuKUTZpl+u9k+CxEG0twMVzSmXEEz12z5Fnw1jIQFA==
+
+parse5@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.0.tgz#c59341c9723f414c452975564c7c00a68d58acd2"
+  integrity sha512-fxNG2sQjHvlVAYmzBZS9YlDp6PTSSDwa98vkD4QgVDDCAo84z5X1t5XyJQ62ImdLXx5NdIIfihey6xpum9/gRQ==
 
 parseqs@0.0.5:
   version "0.0.5"
