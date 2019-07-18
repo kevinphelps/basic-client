@@ -5,7 +5,9 @@
     "start": "ng serve",
     "build": "ts-node ./build/build.ts",
     "test": "ts-node ./build/test.ts",
-    "lint": "ts-node ./build/lint.ts"
+    "lint": "ts-node ./build/lint.ts",
+    "predeploy": "yarn run build --prod",
+    "deploy": "firebase deploy"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +36,7 @@
     "@types/rimraf": "2.0.2",
     "chalk": "2.4.2",
     "codelyzer": "5.1.0",
+    "firebase-tools": "7.1.1",
     "jasmine-core": "3.4.0",
     "jasmine-spec-reporter": "4.2.1",
     "js-beautify": "1.10.1",
