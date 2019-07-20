@@ -83,8 +83,8 @@
     "ordered-imports": [
       true,
       {
-        "grouped-imports": true,
-        "import-sources-order": "lowercase-first",
+        "grouped-imports": false,
+        "import-sources-order": "any",
         "named-imports-order": "lowercase-first"
       }
     ],
@@ -132,6 +132,7 @@
     "prefer-output-readonly": true,
     "template-conditional-complexity": [true, 3],
     "template-cyclomatic-complexity": [true, 35],
+    "template-no-call-expression": true,
     "use-component-selector": true,
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true
